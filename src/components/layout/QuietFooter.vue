@@ -30,8 +30,8 @@ import ThemeToggle from '@/components/ThemeToggle.vue';
     <div
       v-if="productIdentity.isCanonical"
       class="container mx-auto max-w-2xl px-4">
-      <FooterLinkLists v-if="displayLinks"
-                       v-bind="$props" />
+      <!-- <FooterLinkLists v-if="displayLinks"
+                       v-bind="$props" /> -->
 
       <div class="
         mt-6 flex

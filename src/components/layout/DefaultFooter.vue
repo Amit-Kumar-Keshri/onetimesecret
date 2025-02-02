@@ -32,8 +32,8 @@ const companyName = ref('OnetimeSecret.com');
     duration-300 dark:bg-gray-800"
           aria-label="Site footer">
     <div class="container mx-auto max-w-2xl px-4">
-      <FooterLinkLists v-if="displayLinks"
-                       v-bind="$props" />
+      <!-- <FooterLinkLists v-if="displayLinks"
+                       v-bind="$props" /> -->
 
       <div class="
         mt-6 flex
