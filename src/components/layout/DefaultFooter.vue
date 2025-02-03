@@ -21,7 +21,7 @@ const windowProps = WindowService.getMultiple([
   'regions_enabled', 'regions', 'authentication'
 ]);
 
-const companyName = ref('OnetimeSecret.com');
+const companyName = ref('ewaycorp.com');
 </script>
 
 <template>
@@ -35,7 +35,7 @@ const companyName = ref('OnetimeSecret.com');
       <!-- <FooterLinkLists v-if="displayLinks"
                        v-bind="$props" /> -->
 
-      <div class="
+      <!-- <div class="
         mt-6 flex
         flex-col-reverse items-center
         justify-between
@@ -45,11 +45,11 @@ const companyName = ref('OnetimeSecret.com');
           flex w-full
           flex-wrap items-center justify-center
           gap-4 text-center
-          text-sm text-gray-500 dark:text-gray-400 md:w-auto md:justify-start md:text-left">
-          <span v-if="displayVersion">
+          text-sm text-gray-500 dark:text-gray-400 md:w-auto md:justify-start md:text-left"> -->
+          <!-- <span v-if="displayVersion">
             &copy; {{ new Date().getFullYear() }} {{ companyName }}.
-          </span>
-          <div v-if="!displayLinks"
+          </span> -->
+          <!-- <div v-if="!displayLinks"
                class="text-inherit">
             <router-link to="/info/terms"
                          class="transition-colors duration-200 hover:text-gray-800 dark:hover:text-gray-100">
@@ -60,8 +60,8 @@ const companyName = ref('OnetimeSecret.com');
                          class="transition-colors duration-200 hover:text-gray-800 dark:hover:text-gray-100">
               Privacy
             </router-link>
-          </div>
-        </div>
+          </div> -->
+        <!-- </div> -->
 
         <div v-if="displayToggles"
              class="
@@ -85,7 +85,7 @@ const companyName = ref('OnetimeSecret.com');
             dark:text-gray-400 dark:hover:text-gray-100"
                           aria-label="Provide feedback" />
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </footer>
 </template>

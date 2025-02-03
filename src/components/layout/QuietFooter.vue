@@ -20,7 +20,7 @@ import ThemeToggle from '@/components/ThemeToggle.vue';
     'regions_enabled', 'regions', 'authentication'
   ]);
 
-  const companyName = ref('OnetimeSecret.com');
+  const companyName = ref('.');
 
 </script>
 <template>

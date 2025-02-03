@@ -71,7 +71,7 @@
           <div class="relative">
             <img
               id="logo"
-              src="@/assets/img/onetime-logo-v3-xl.svg"
+              src="@/assets/img/ewaycorp_logo.jpg"
               class="size-12 rounded-md transition-transform sm:size-16"
               height="64"
               width="64"
@@ -212,18 +212,18 @@
               role="separator">
               |
             </span>
-            <router-link
+            <!-- <router-link
               to="/about"
               title="About Onetime Secret"
               class="text-gray-600 transition-colors duration-200 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white">
               {{ $t('web.COMMON.header_about') }}
-            </router-link>
-            <span
+            </router-link> -->
+            <!-- <span
               class="text-gray-400"
               aria-hidden="true"
               role="separator">
               |
-            </span>
+            </span> -->
             <router-link
               v-if="windowProps.authentication.signin"
               to="/signin"
@@ -233,13 +233,13 @@
             </router-link>
           </template>
 
-          <router-link
+          <!-- <router-link
             v-else
             to="/about"
             title="About Onetime Secret"
             class="text-gray-600 transition-colors duration-200 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white">
             {{ $t('web.COMMON.header_about') }}
-          </router-link>
+          </router-link> -->
         </template>
       </nav>
     </div>
